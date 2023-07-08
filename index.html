@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Current Weather Condition</title>
+    <link rel="stylesheet" href="asset/style.css">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="asset/bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+   
+
+        <div class="container header">
+            <div class="row">
+                <h1>Welcome to my Weather Tracking App</h1>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <form id="frm1" action="">
+
+                    <input class="form-control mb-3" type="text" id="getLocation" name="getLocation" placeholder="Enter City Name or Zipcode">
+                    <input class="btn btn-primary" type="button" id="btn" value="Current Weather" onclick="getWeatherData(this.value)">
+                </form>
+            </div>
+        </div>
+        <div id="weatherInfo" class="container mt-4"></div>
+</body>
+
+    <script src="asset/script.js"></script>
+    <!--Bootstrap js-->
+    <script src="asset/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+.header h1 {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.required::placeholder {
+    color: red;
+    font-style: italic;
+}

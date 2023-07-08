@@ -1,0 +1,3 @@
+
+website URL: https://openweathermap.org/
+API URL: https://openweathermap.org/current
